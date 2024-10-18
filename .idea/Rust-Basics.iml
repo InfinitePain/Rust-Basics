@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="EMPTY_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Blatt1/a2/hello-rust/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Blatt1/a3/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Blatt1/a6/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Blatt2/a1/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Blatt2/a3/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Blatt2/a4/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/Blatt1/a2/hello-rust/target" />
+      <excludeFolder url="file://$MODULE_DIR$/Blatt1/a3/target" />
+      <excludeFolder url="file://$MODULE_DIR$/Blatt1/a6/target" />
+      <excludeFolder url="file://$MODULE_DIR$/Blatt2/a1/target" />
+      <excludeFolder url="file://$MODULE_DIR$/Blatt2/a3/target" />
+      <excludeFolder url="file://$MODULE_DIR$/Blatt2/a4/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
