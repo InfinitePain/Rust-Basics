@@ -1,0 +1,13 @@
+Rust bietet eine hervorragende Speicherverwaltung.
+Rust ist sicher, aber es dauert länger, es zu lernen.
+Rust ist eine gute Wahl für Systemprogrammierung.
+Rust ist anspruchsvoll, aber die Resultate sind zuverlässig.
+Rust hat eine steile Lernkurve.
+Rust ist für eingebettete Systeme geeignet.
+Rust unterstützt Concurrency ohne Race-Conditions.
+Rust hat eine lebendige Community.
+Rust-Programme lassen sich nur schwer debuggen.
+Rusts Compiler ist langsam, aber genau.
+Rust kann C und C++ ersetzen, aber ist weniger flexibel.
+Rust ist gut dokumentiert und umfassend getestet.
+Rust ist pragmatisch, aber keine Allzwecklösung.

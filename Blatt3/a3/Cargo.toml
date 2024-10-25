@@ -1,0 +1,9 @@
+[package]
+name = "ferris-reaction-timer"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+termion = "4.0.3"
+rand = "0.8.5"
+ferris-says = "0.3.1"
