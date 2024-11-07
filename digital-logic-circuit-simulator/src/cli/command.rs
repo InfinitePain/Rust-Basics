@@ -29,24 +29,23 @@ impl Command {
 
     // Parse a string into a Command
     pub fn parse(input: &str) -> Option<Command> {
-        let parts: Vec<&str> = input.trim().split_whitespace().collect();
+        let parts: Vec<&str> = input.split_whitespace().collect();
 
-        match parts.get(0).map(|s| *s) {
+        match parts.first().copied() {
             Some("help") => Some(Command::Help),
             Some("exit") => Some(Command::Exit),
             Some("ripple") => {
                 if parts.len() != 4 {
                     return None;
                 }
-
                 let bits = parts[1].parse().ok()?;
                 let num1 = parts[2].to_string();
                 let num2 = parts[3].to_string();
-
                 Some(Command::RippleAdd { bits, num1, num2 })
             }
             _ => None
         }
+
     }
 
     // Execute the command
@@ -61,9 +60,10 @@ impl Command {
 
             Command::RippleAdd { bits, num1, num2 } => {
                 let mut adder = RippleCarryAdder::new(*bits);
-                let (sum, overflow) = adder.calculate(&num1, &num2);
+                let (sum, overflow) = adder.calculate(num1, num2);
                 Ok(CommandResult::Continue(format!("Sum: {}\n{}", sum, if overflow { "Overflow occurred!" } else { "" })))
             }
+
         }
     }
 }
