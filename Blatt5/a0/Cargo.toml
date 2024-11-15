@@ -1,0 +1,15 @@
+[package]
+name = "a1"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "p1"
+path = "src/bin/p1.rs"
+
+[[bin]]
+name = "p2"
+path = "src/bin/p2.rs"
+
+[dependencies]
+clap = "3.0.0"
