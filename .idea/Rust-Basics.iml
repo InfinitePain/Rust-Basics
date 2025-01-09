@@ -16,6 +16,15 @@
       <sourceFolder url="file://$MODULE_DIR$/Blatt5/a0/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Blatt5/a3/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Blatt5/a4/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Blatt6/a1/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Blatt7/a0/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Blatt7/a0/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/Blatt7/a1/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Blatt7/a2/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Blatt7/a3/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Blatt8/a1/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Blatt9/a1/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/basemate/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/Blatt1/a2/hello-rust/target" />
       <excludeFolder url="file://$MODULE_DIR$/Blatt1/a3/target" />
       <excludeFolder url="file://$MODULE_DIR$/Blatt1/a6/target" />
@@ -30,6 +39,14 @@
       <excludeFolder url="file://$MODULE_DIR$/Blatt5/a0/target" />
       <excludeFolder url="file://$MODULE_DIR$/Blatt5/a3/target" />
       <excludeFolder url="file://$MODULE_DIR$/Blatt5/a4/target" />
+      <excludeFolder url="file://$MODULE_DIR$/Blatt6/a1/target" />
+      <excludeFolder url="file://$MODULE_DIR$/Blatt7/a0/target" />
+      <excludeFolder url="file://$MODULE_DIR$/Blatt7/a1/target" />
+      <excludeFolder url="file://$MODULE_DIR$/Blatt7/a2/target" />
+      <excludeFolder url="file://$MODULE_DIR$/Blatt7/a3/target" />
+      <excludeFolder url="file://$MODULE_DIR$/Blatt8/a1/target" />
+      <excludeFolder url="file://$MODULE_DIR$/Blatt9/a1/target" />
+      <excludeFolder url="file://$MODULE_DIR$/basemate/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

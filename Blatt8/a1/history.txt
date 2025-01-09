@@ -1,0 +1,17 @@
+#V2
+help
+exit
+help
+open pgu.dat
+list-open
+list pgu.dat
+list
+save new.dat
+save pgu.dat new.dat
+change 260557480550457346 max,muster,,31
+change pgu.dat 260557480550457346 max,muster,,31
+save pgu.dat new.dat
+save-bin pgu.dat new.dat
+open new.dat
+list
+exit
